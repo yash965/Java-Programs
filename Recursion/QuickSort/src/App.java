@@ -4,8 +4,8 @@ public class App {
         int pivot = arr[high];
         int i = low-1;
 
-        for(int j=0; j<high-1; j++) {
-            if(pivot>arr[j]) {
+        for(int j=0; j<high; j++) {
+            if(pivot > arr[j]) {
                 i++;
                 int temp = arr[j];
                 arr[j] = arr[i];

@@ -34,7 +34,7 @@ public class App {
             merge[x] = arr[idx2];
         }
 
-        for(int i=0; i<arr.length; i++) {
+        for(int i=0, j=si; i<merge.length; i++) {
             arr[i] = merge[i];
         }
     }
