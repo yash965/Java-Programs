@@ -5,7 +5,7 @@ public class App {
             return;
         }
 
-        int mid = si + (ei - si)/2;
+        int mid = (si + (ei - si))/2;
         Divide(arr, si, mid);
         Divide(arr, mid+1, ei);
         Conquer(arr, si, ei, mid);
